@@ -1,0 +1,18 @@
+
+@mixin btn {
+  button {
+    background: #FF9619;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    transition: .4s;
+
+    &:hover {
+      transform: scale(0.9);
+      background: #343434;
+      color: #FF9619;
+    }
+  }
+}
